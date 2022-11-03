@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  background-color: #aaa7a5;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.my-foto {
+  width: 370px;
+}
+
+
+body {
+  background: #f5f7fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Montserrat;
+}
+
+.wrapper {
+  background: #fff;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.about-me-conteiner {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.Contacts-conteiner {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 400px;
+}
+
+.Contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.Contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a0a0a;
+  text-decoration: none;
+}
+
+.style-type {
+   list-style-type: none;
+}
+
+.Contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-right: 10px;
+}
+.Tech-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.Tech-skills-conteiner {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+  width: 400px; 
+  margin-top: 40px;
+}
+
+.Tech-skills-iten {
+  margin-left: 15px;
+  color: #f86909;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Tech-skills-text {
+  color: #141515;
+}
+
+.Soft-skills-conteine {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+}
+
+.Soft-skills-titls {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.Soft-skills-iten {
+  margin-left: 15px;
+  color: #f86909;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Soft-skills-text {
+  color: #d8dadd;
+}
+
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.info-conteiner {
+  margin-bottom: 65px;
+}
+
+.about-me-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #ff771c;
+}
+
+.projects-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.tech-name {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dots {
+  color: #bdbdbd;
+  font-weight: 100;
+}
+
+.projects-iten {
+  font-weight: 700;
+  margin-left: 17px;
+}
+
+.projects-container {
+  margin-bottom: 55px;
+}
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.profession-company {
+  color: #ff771c;
+}
+
+.rofession-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+
+.rofession-divider {
+  color: #000;
+}
+
+.profession-quties {
+  margin-bottom: 30px;
+  margin-top: 14px;
+}
+
+.pofession-quties-iten {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dz {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.my-element {
+  color: rgb(70, 112, 93);
+}
+
+.Soft-skills-conteine {
+  background: sandybrown;
+  width: 400px;
+  
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    
+/*padding: 40px;
+  box-sizing: border-box;
+  margin-top: 40px; */
+}
+
+.Tech-skills-tyter {
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.Tech-skills-iten {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.mein-conteiner {
+  display: flex;
+  flex-direction: row;
+}
+
