@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 .sidebar {
-  background-color: #aaa7a5;
-  width: 370px;
+  background-color: #aaa7a5;;
+  /* width: 370px; */
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
+
 .my-foto {
-  width: 370px;
+width: 270px;
+border-radius: 10px 100px / 120px;
+display: block;
+margin: auto;
 }
 
 
 body {
-  background: #f5f7fa;
+  background: #f0ebe7;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 20px;
@@ -34,9 +38,9 @@ body {
 
 
 .about-me-conteiner {
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 110px;
+  /* padding-left: 90px;
+  padding-right: 90px; */
+  /* padding-top: 10px; */
   padding-bottom: 110px;
 }
 
@@ -90,9 +94,18 @@ body {
   margin-top: 40px;
 }
 
-.Tech-skills-iten {
-  margin-left: 15px;
+/* .Tech-skills-iten {
+
   color: #f86909;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+} */
+
+.Tech-skills-iten {
+  color: #0d0c0c;
+  margin-left: 15px;
+  font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -103,10 +116,12 @@ body {
 }
 
 .Soft-skills-conteine {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 55px;
-}
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+      width: 400px;
+      margin-top: 40px;
+    }
 
 .Soft-skills-titls {
   font-size: 22px;
@@ -125,16 +140,36 @@ body {
 }
 
 .Soft-skills-text {
-  color: #d8dadd;
+  color: #1c1d1e;
+}
+
+.Language-skills-conteine{
+      margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 55px;
+        width: 400px;
+        margin-top: 40px;
+}
+
+.Language-skills-iten{
+    margin-left: 15px;
+      color: #f86909;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
 }
 
 .profession {
+  text-align: center;
+  color: #f0ebe7;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 23px;
 }
 .name {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f0ebe7;
   font-size: 45px;
   font-weight: 700;
   line-height: 89px;
@@ -148,15 +183,21 @@ body {
 }
 
 .info-conteiner {
-  margin-bottom: 65px;
+  padding-bottom: 200px;
+  padding-top: 50px;
+  background-color: #383740;
 }
 
 .about-me-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 10px;
-  color: #ff771c;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  color: #f0ebe7;
+  background-color: #383740;
+  padding: 10px;
 }
 
 .projects-link {
@@ -185,7 +226,8 @@ body {
 }
 
 .projects-container {
-  margin-bottom: 55px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .profession-title {
   font-size: 16px;
@@ -193,6 +235,7 @@ body {
   line-height: 24px;
   margin-top: 10px;
   margin-bottom: 15px;
+  margin-left: 10px;
 }
 
 .profession-company {
@@ -234,31 +277,9 @@ body {
   color: rgb(70, 112, 93);
 }
 
-.Soft-skills-conteine {
-  background: sandybrown;
-  width: 400px;
-  
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    
-/*padding: 40px;
-  box-sizing: border-box;
-  margin-top: 40px; */
-}
-
 .Tech-skills-tyter {
   font-size: 30px;
-  font-weight: 400px;
-}
-
-.Tech-skills-iten {
-  color: #ffffff;
-  font-family: Montserrat;
-  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
 }
 
 .mein-conteiner {
