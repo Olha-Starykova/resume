@@ -3,13 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: #f0ebe7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: Lato, sans-serif;
+}
+
 .sidebar {
   background-color: #aaa7a5;;
   /* width: 370px; */
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
 
 .my-foto {
 width: 270px;
@@ -18,15 +27,6 @@ display: block;
 margin: auto;
 }
 
-
-body {
-  background: #f0ebe7;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-family: Montserrat;
-}
 
 .wrapper {
   background: #fff;
@@ -60,12 +60,12 @@ body {
 }
 
 .Contacts-link {
-  font-size: 14px;
+  color: #242121;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  color: #0a0a0a;
   text-decoration: none;
-}
+ }
 
 .style-type {
    list-style-type: none;
@@ -94,25 +94,17 @@ body {
   margin-top: 40px;
 }
 
-/* .Tech-skills-iten {
-
-  color: #f86909;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-} */
-
 .Tech-skills-iten {
-  color: #0d0c0c;
-  margin-left: 15px;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
+ color: #242121;
+ font-size: 18px;
+margin-left: 20px;
 }
 
 .Tech-skills-text {
-  color: #141515;
+ color: #242121;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
 }
 
 .Soft-skills-conteine {
@@ -133,38 +125,35 @@ body {
 
 .Soft-skills-iten {
   margin-left: 15px;
-  color: #f86909;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 .Soft-skills-text {
-  color: #1c1d1e;
-}
+ color: #242121;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 24px;
+ }
 
 .Language-skills-conteine{
-      margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 55px;
-        width: 400px;
-        margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+  width: 400px;
+  margin-top: 40px;
 }
 
 .Language-skills-iten{
-    margin-left: 15px;
-      color: #f86909;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 24px;
+  margin-left: 15px;
 }
 
 .profession {
   text-align: center;
-  color: #f0ebe7;
-  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
+
 }
 .name {
   text-align: center;
@@ -189,6 +178,7 @@ body {
 }
 
 .about-me-title {
+  text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
@@ -201,28 +191,26 @@ body {
 }
 
 .projects-link {
-  color: #595959;
-  font-size: 14px;
-  font-weight: 400;
+  color: #242121;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 24px;
-  text-decoration: none;
-}
+ }
 
 .tech-name {
-  color: #595959;
-  font-size: 14px;
+  display: block;
+  color: #242121;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-}
-
-.dots {
-  color: #bdbdbd;
-  font-weight: 100;
 }
 
 .projects-iten {
+  margin-bottom: 10px;
+  margin-right: 50px;
   font-weight: 700;
   margin-left: 17px;
+  list-style-type: none
 }
 
 .projects-container {
@@ -230,51 +218,58 @@ body {
   padding-right: 50px;
 }
 .profession-title {
-  font-size: 16px;
+  color: #242121;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   margin-top: 10px;
-  margin-bottom: 15px;
   margin-left: 10px;
 }
 
 .profession-company {
-  color: #ff771c;
+  color: #242121;
+  display: block;
+  margin-left: 10px;
+  font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
 }
 
-.rofession-time {
-  color: #a8a8a8;
-  font-size: 12px;
+.profession-time {
+  color: #242121;
+  margin-left: 10px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 14px;
 }
 
-.rofession-divider {
-  color: #000;
+.profession-divider {
+  color: #242121;
 }
 
 .profession-quties {
   margin-bottom: 30px;
   margin-top: 14px;
+  list-style-type: none
 }
 
 .pofession-quties-iten {
-  color: #595959;
-  font-size: 14px;
+  color: #242121;
+  margin-left: 10px;
+  margin-right: 50px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .dz {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  font-size: 14px;
-  font-weight: 700;
+  color: #242121;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 24px;
-}
-.my-element {
-  color: rgb(70, 112, 93);
 }
 
 .Tech-skills-tyter {
