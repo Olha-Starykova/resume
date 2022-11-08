@@ -231,6 +231,13 @@ margin: auto;
   line-height: 1.33;
 }
 
+.profession-time-education{
+   color: var(--primary-text-color);
+   margin-bottom: 14px;
+   font-size: 18px;
+   line-height: 1.33;
+}
+
 .profession-divider {
   color: var(--primary-text-color);
 }
