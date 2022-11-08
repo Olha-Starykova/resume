@@ -4,17 +4,26 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-text-color: #242121;
+  --title-text-color: #c0b9b3;
+  --primary-white-color: #f0ebe7;
+  --background-color: #a5a5a5;
+  --info-background-color: #383740;
+}
+
 body {
-  background: #f0ebe7;
+  background: var(--primary-white-color);
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 20px;
   padding-left: 20px;
   font-family: Lato, sans-serif;
+  letter-spacing: -0.01em;
 }
 
 .sidebar {
-  background-color: #aaa7a5;;
+  background-color: var(--background-color);
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -26,20 +35,15 @@ display: block;
 margin: auto;
 }
 
-
-.wrapper {
-  background: #fff;
+ .wrapper {
+  background: var(--primary-white-color);
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
-
 .about-me-conteiner {
-  /* padding-left: 90px;
-  padding-right: 90px; */
-  /* padding-top: 10px; */
   padding-bottom: 110px;
 }
 
@@ -50,19 +54,18 @@ margin: auto;
   width: 400px;
 }
 
-.Contacts-title {
+/* .Contacts-title {
   font-size: 22px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.1;
   color: white;
   margin-bottom: 20px;
-}
+} */
 
 .Contacts-link {
-  color: #242121;
+  color: var(--primary-text-color);
   font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.33;
   text-decoration: none;
  }
 
@@ -70,74 +73,59 @@ margin: auto;
    list-style-type: none;
 }
 
-.Contacts-link-type {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  color: white;
-  margin-right: 10px;
-}
-.Tech-skills-title {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-bottom: 20px;
-  color: white;
-}
 
 .Tech-skills-conteiner {
+  width: 400px; 
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 55px;
-  width: 400px; 
-  margin-top: 40px;
+  margin-top: 40px; 
 }
 
 .Tech-skills-iten {
- color: #242121;
+ color: var(--primary-text-color);
  font-size: 18px;
-margin-left: 20px;
+ margin-left: 20px;
 }
 
 .Tech-skills-text {
- color: #242121;
+ color: var(--primary-text-color);
  font-size: 18px;
  font-weight: 400;
- line-height: 24px;
+ line-height: 1.33;
 }
 
 .Soft-skills-conteine {
+    width: 400px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 55px;
-      width: 400px;
-      margin-top: 40px;
+    margin-top: 40px;
     }
 
-.Soft-skills-titls {
+/* .Soft-skills-titls {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
   color: white;
-}
+} */
 
 .Soft-skills-iten {
   margin-left: 15px;
 }
 
 .Soft-skills-text {
- color: #242121;
+ color: var(--primary-text-color);
  font-size: 18px;
- font-weight: 400;
- line-height: 24px;
+ line-height: 1.33;
  }
 
-.Language-skills-conteine{
+.Language-skills-conteine {
+  width: 400px;
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 55px;
-  width: 400px;
   margin-top: 40px;
 }
 
@@ -151,123 +139,114 @@ margin-left: 20px;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.33;
 
 }
 .name {
   text-align: center;
   text-transform: uppercase;
-  color: #f0ebe7;
+  color: var(--title-text-color);
   font-size: 45px;
   font-weight: 700;
-  line-height: 89px;
+  line-height: 1.97;
 }
 
 .summary-title{
   text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #f0ebe7;
+  color: var(--title-text-color);
   margin-left: 60px;
   margin-top: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
   }
 
   .summary-description{
   display: block;
-  color: #f0ebe7;
-  margin-top: 30px;
+  color: var(--primary-white-color);
   margin-top: 30px;
   padding-right: 80px;
   padding-left: 40px;
   font-size: 22px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   }
-
-.description {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 24px;
-}
 
 .info-conteiner {
   padding-bottom: 100px;
   padding-top: 50px;
-  background-color: #383740;
+  background-color: var(--info-background-color);
 }
 
 .about-me-title {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.1;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-right: 50px;
-  color: #f0ebe7;
-  background-color: #383740;
+  color: var(--title-text-color);
+  background-color: var(--info-background-color);
   padding: 10px;
 }
 
 .projects-link {
-  color: #242121;
+  color: var(--primary-text-color);
   font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.33;
  }
 
 .tech-name {
   display: block;
-  color: #242121;
+  color: var(--primary-text-color);
   font-size: 18px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.33;
 }
 
 .projects-iten {
+  list-style-type: none;
   margin-bottom: 10px;
   margin-right: 50px;
-  font-weight: 700;
   margin-left: 17px;
-  list-style-type: none
+  font-weight: 700;
 }
 
 .projects-container {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .profession-title {
-  color: #242121;
+  color: var(--primary-text-color);
   font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.33;
   margin-top: 10px;
   margin-left: 10px;
 }
 
 .profession-company {
-  color: #242121;
+  color: var(--primary-text-color);
   display: block;
   margin-left: 10px;
+  margin-top: 10px;
   font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-top: 10px;
-}
+  font-weight: 700;
+  line-height: 1.33;
+  }
 
 .profession-time {
-  color: #242121;
+  color: var(--primary-text-color);
   margin-left: 10px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
   margin-bottom: 14px;
+  font-size: 18px;
+  line-height: 1.33;
 }
 
 .profession-divider {
-  color: #242121;
+  color: var(--primary-text-color);
 }
 
 .profession-quties {
@@ -277,29 +256,19 @@ margin-left: 20px;
 }
 
 .pofession-quties-iten {
-  color: #242121;
+  color: var(--primary-text-color);
   margin-left: 10px;
   margin-right: 50px;
   font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.33;
 }
 
 .dz {
-  color: #242121;
+  color: var(--primary-text-color);
   margin-left: 10px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.33;
 }
 
-.Tech-skills-tyter {
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.mein-conteiner {
-  display: flex;
-  flex-direction: row;
-}
 
