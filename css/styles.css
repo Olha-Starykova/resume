@@ -54,13 +54,6 @@ margin: auto;
   width: 400px;
 }
 
-/* .Contacts-title {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 1.1;
-  color: white;
-  margin-bottom: 20px;
-} */
 
 .Contacts-link {
   color: var(--primary-text-color);
@@ -103,13 +96,6 @@ margin: auto;
     margin-top: 40px;
     }
 
-/* .Soft-skills-titls {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-bottom: 20px;
-  color: white;
-} */
 
 .Soft-skills-iten {
   margin-left: 15px;
