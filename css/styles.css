@@ -183,6 +183,14 @@ margin: auto;
   line-height: 1.33;
  }
 
+ .projects-link-gitHub {
+  color:  #858282;
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+ }
+
 .tech-name {
   display: block;
   color: var(--primary-text-color);
